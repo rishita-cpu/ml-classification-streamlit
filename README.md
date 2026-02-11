@@ -18,6 +18,7 @@ The target variable has two classes representing malignant and benign tumors.
 - XGBoost
 
 ## Metrics Used
+Accuracy, AUC, Precision, Recall, F1 Score, MCC
 ## Model Performance Comparison
 
 | Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
