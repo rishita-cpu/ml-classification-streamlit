@@ -18,9 +18,16 @@ The target variable has two classes representing malignant and benign tumors.
 - XGBoost
 
 ## Metrics Used
-Accuracy, AUC, Precision, Recall, F1 Score, MCC
+## Model Performance Comparison
 
-(Fill metric table from notebook output)
+| Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|--------|---------|------|-----------|---------|------|------|
+| Logistic Regression | 0.973684 | 0.997380 | 0.972222 | 0.985915 | 0.979021 | 0.943898 |
+| Decision Tree | 0.947368 | 0.943990 | 0.957746 | 0.957746 | 0.957746 | 0.887979 |
+| KNN | 0.947368 | 0.981985 | 0.957746 | 0.957746 | 0.957746 | 0.887979 |
+| Naive Bayes | 0.964912 | 0.997380 | 0.958904 | 0.985915 | 0.972222 | 0.925285 |
+| Random Forest | 0.964912 | 0.995251 | 0.958904 | 0.985915 | 0.972222 | 0.925285 |
+| XGBoost | 0.956140 | 0.993122 | 0.958333 | 0.971831 | 0.965035 | 0.906379 |
 
 ## Streamlit Features
 - CSV upload
